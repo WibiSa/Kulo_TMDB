@@ -36,7 +36,7 @@ This is a mobile application that allows users to stream movies using the API pr
 
 To set up the application locally, follow these steps:
 
-1. Clone the repository from GitHub: `git clone https://github.com/your-repository.git`.
+1. Clone the repository from GitHub: `git clone https://github.com/WibiSa/Kulo_TMDB.git`.
 2. Navigate to the project directory: `cd your-repository`.
 3. Open project.
 4. Obtain an API key from [The Movie Database](https://www.themoviedb.org) by creating an account.
