@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/discoverFragment">
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="me.wibisa.kulotmdb.ui.discover.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" >
+        <action
+            android:id="@+id/action_discoverFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/genreFragment"
+        android:name="me.wibisa.kulotmdb.ui.genre.GenreFragment"
+        android:label="fragment_genre"
+        tools:layout="@layout/fragment_genre" >
+        <action
+            android:id="@+id/action_genreFragment_to_moviesByGenreFragment"
+            app:destination="@id/moviesByGenreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesByGenreFragment"
+        android:name="me.wibisa.kulotmdb.ui.moviesbygenre.MoviesByGenreFragment"
+        android:label="fragment_movies_by_genre"
+        tools:layout="@layout/fragment_movies_by_genre" >
+        <argument
+            android:name="genre"
+            app:argType="me.wibisa.kulotmdb.core.data.remote.response.Genre" />
+        <action
+            android:id="@+id/action_moviesByGenreFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="me.wibisa.kulotmdb.ui.moviedetails.MovieDetailsFragment"
+        android:label="fragment_movie_details"
+        tools:layout="@layout/fragment_movie_details" >
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_movieDetailsFragment_to_reviewListDialogFragment"
+            app:destination="@id/reviewListDialogFragment" />
+        <action
+            android:id="@+id/action_movieDetailsFragment_to_videosMovieFragment"
+            app:destination="@id/videosMovieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reviewListDialogFragment"
+        android:name="me.wibisa.kulotmdb.ui.reviews.ReviewListDialogFragment"
+        android:label="fragment_review_list_dialog"
+        tools:layout="@layout/fragment_review_list_dialog" >
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/videosMovieFragment"
+        android:name="me.wibisa.kulotmdb.ui.videos.VideosMovieFragment"
+        android:label="fragment_videos_movie"
+        tools:layout="@layout/fragment_videos_movie" >
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

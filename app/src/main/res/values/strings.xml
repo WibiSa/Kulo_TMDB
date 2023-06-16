@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Kulo TMDB</string>
+
+    <string name="cd_movie_poster">Movie poster</string>
+    <string name="cd_movie_backdrop">Movie poster</string>
+    <string name="cd_video_thumb">Video Thumbnail</string>
+    <string name="reviews">Reviews</string>
+    <string name="play_trailer">Play Trailer</string>
+    <string name="popularity">Popularity</string>
+    <string name="revenue">Revenue</string>
+    <string name="runtime">Runtime</string>
+    <string name="status">Status</string>
+    <!--  format:2023 | EN | 5.1 |  -->
+    <string name="movie_details_combine_content">%1$s | %2$s | %3$s </string>
+    <string name="genre">Genre</string>
+    <string name="something_went_wrong">Terjadi kesalahan.</string>
+    <string name="something_went_wrong_try_again_later">Terjadi kesalahan, coba lagi nanti</string>
+    <string name="internet_is_not_available">Internet tidak tersedia, Periksa koneksi Anda.</string>
+    <string name="discover">Discover</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SplashscreenApi" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#1d1b16</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_kulo_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.KuloTMDB</item>
+    </style>
+</resources>

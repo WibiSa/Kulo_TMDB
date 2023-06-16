@@ -1,7 +1,29 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.KuloTMDB" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.KuloTMDB" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#e2c54b</item>
+        <item name="colorOnPrimary">#3a3000</item>
+        <item name="colorPrimaryContainer">#544600</item>
+        <item name="colorOnPrimaryContainer">#ffe167</item>
+        <!--        <item name="colorPrimaryVariant">@color/primaryColorVariant</item>-->
+        <item name="colorSecondary">#d2c6a1</item>
+        <item name="colorOnSecondary">#373016</item>
+        <item name="colorSecondaryContainer">#4e472a</item>
+        <item name="colorOnSecondaryContainer">#eee2bc</item>
+        <!--        <item name="colorSecondaryVariant">@color/secondaryColorVariant</item>-->
+        <item name="colorError">#ffb4ab</item>
+        <item name="colorOnError">#690005</item>
+        <item name="colorErrorContainer">#93000a</item>
+        <item name="colorOnErrorContainer">#ffdad6</item>
+        <item name="android:colorBackground">#1d1b16</item>
+        <item name="colorOnBackground">#e7e2d9</item>
+        <item name="colorSurface">#1d1b16</item>
+        <item name="colorOnSurface">#e7e2d9</item>
+        <item name="colorOutline">#969080</item>
+        <item name="colorSurfaceVariant">#4b4739</item>
+        <item name="colorOnSurfaceVariant">#cdc6b4</item>
+
+        <item name="android:statusBarColor">#1d1b16</item>
     </style>
 </resources>

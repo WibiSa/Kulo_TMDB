@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera_movie"
+        android:title="@string/discover" />
+
+    <item
+        android:id="@+id/genreFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_bars_filter"
+        android:title="@string/genre" />
+</menu>
