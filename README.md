@@ -2,8 +2,7 @@
 
 ## Screenshots
 
-<img src="screenshots/kulo_tmdb_cover.png
-"/>
+<img src="screenshots/kulo_tmdb_cover.png"/>
 
 This is a mobile application that allows users to stream movies using the API provided by [The Movie Database](https://www.themoviedb.org). The app provides various features to enhance the user experience and interact with movie data.
 
