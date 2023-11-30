@@ -1,9 +1,15 @@
-# Kulo_TMDB
-# Movie App using The Movie Database API
+# Kulo TMDB - Movie app using The Movie Database API.
 
-This is a mobile application that allows users to stream movies using the API provided by [The Movie Database](https://www.themoviedb.org). The app provides various features to enhance the user experience and interact with movie data. Below is a description of the user stories and functionalities implemented in the application.
+## Screenshots
+
+<img src="screenshots/kulo_tmdb_cover.png
+"/>
+
+This is a mobile application that allows users to stream movies using the API provided by [The Movie Database](https://www.themoviedb.org). The app provides various features to enhance the user experience and interact with movie data.
 
 ## User Stories
+
+Below is a description of the user story and the functionality implemented in the application.
 
 1. **Display Official Movie Genres**
    - Users can view a screen that shows a list of official movie genres.
@@ -38,9 +44,9 @@ To set up the application locally, follow these steps:
 
 1. Clone the repository from GitHub: `git clone https://github.com/WibiSa/Kulo_TMDB.git`.
 2. Navigate to the project directory: `cd your-repository`.
-3. Open project.
+3. Open the project in Android Studio.
 4. Obtain an API key from [The Movie Database](https://www.themoviedb.org) by creating an account.
-5. Create a local.properties file, if there is and add the following code:
+5. Create a local properties file into the project, if there is and add the following code:
 
    ```
    // local.properties
