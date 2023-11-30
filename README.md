@@ -45,7 +45,7 @@ To set up the application locally, follow these steps:
 2. Navigate to the project directory: `cd your-repository`.
 3. Open the project in Android Studio.
 4. Obtain an API key from [The Movie Database](https://www.themoviedb.org) by creating an account.
-5. Create a local properties file into the project, if there is and add the following code:
+5. Create a local properties file in the project's root folder, if there is and add the following code:
 
    ```
    // local.properties
